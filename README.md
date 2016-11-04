@@ -16,7 +16,7 @@ Heat Map | Cluster | Percent | Segue
 
 
 
-[img-heatmap]: https://github.com/ls1intum/MIDAS/blob/Client/Screenshots/heatmap.png
-[img-cluster]: https://github.com/ls1intum/MIDAS/Client/Screenshots/cluster.png
-[img-percent]: https://github.com/ls1intum/MIDAS/Client/Screenshots/percent.png
-[img-segue]: https://github.com/ls1intum/MIDAS/Client/Screenshots/segue.png
+[img-heatmap]: https://github.com/ls1intum/MIDAS/raw/master/Client/Screenshots/heatmap.png
+[img-cluster]: https://github.com/ls1intum/MIDAS/raw/master/Client/Screenshots/cluster.png
+[img-percent]: https://github.com/ls1intum/MIDAS/raw/master/Client/Screenshots/percent.png
+[img-segue]: https://github.com/ls1intum/MIDAS/raw/master/Client/Screenshots/segue.png
