@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB48883D1D133F6600A7AAF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB48883C1D133F6600A7AAF6 /* main.m */; };
+		BB4888401D133F6600A7AAF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB48883F1D133F6600A7AAF6 /* AppDelegate.m */; };
+		BB4888461D133F6600A7AAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4888441D133F6600A7AAF6 /* Main.storyboard */; };
+		BB4888481D133F6600A7AAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4888471D133F6600A7AAF6 /* Assets.xcassets */; };
+		BB48884B1D133F6600A7AAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4888491D133F6600A7AAF6 /* LaunchScreen.storyboard */; };
+		BB4888781D13411A00A7AAF6 /* Midas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4888701D133FA100A7AAF6 /* Midas.framework */; };
+		BB4888791D13411A00A7AAF6 /* Midas.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB4888701D133FA100A7AAF6 /* Midas.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BB615DBB1D21C42F0002ECED /* APOD.json in Resources */ = {isa = PBXBuildFile; fileRef = BB615DBA1D21C42F0002ECED /* APOD.json */; };
+		BB615DC11D21C4760002ECED /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB615DC01D21C4760002ECED /* HistoryTableViewController.m */; };
+		BB615DC71D21CAB70002ECED /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB615DC61D21CAB70002ECED /* PictureViewController.m */; };
+		BB615DCA1D21CADE0002ECED /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB615DC91D21CADE0002ECED /* SettingsViewController.m */; };
+		BB615DDF1D21CD830002ECED /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB615DDC1D21CD7B0002ECED /* WebImage.framework */; };
+		BB615DE01D21CD830002ECED /* WebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB615DDC1D21CD7B0002ECED /* WebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBAA974F1D4BE85B00B39D0F /* MessagePack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA974E1D4BE85200B39D0F /* MessagePack.framework */; };
+		BBAA97501D4BE85B00B39D0F /* MessagePack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA974E1D4BE85200B39D0F /* MessagePack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBAA97591D4FC9A200B39D0F /* midas.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBAA97581D4FC9A200B39D0F /* midas.plist */; };
+		BBE7A8101D64EA23006AD3B3 /* FBAnnotationClustering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB76A3A91D62267100EDBC9C /* FBAnnotationClustering.framework */; };
+		BBE7A8111D64EA23006AD3B3 /* FBAnnotationClustering.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB76A3A91D62267100EDBC9C /* FBAnnotationClustering.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB48886F1D133FA100A7AAF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB48886B1D133FA100A7AAF6 /* Midas.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB48885C1D133F7E00A7AAF6;
+			remoteInfo = Midas;
+		};
+		BB48887A1D13411A00A7AAF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB48886B1D133FA100A7AAF6 /* Midas.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BB48885B1D133F7E00A7AAF6;
+			remoteInfo = Midas;
+		};
+		BB615DD51D21CD7B0002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615DCC1D21CD7B0002ECED /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = SDWebImage;
+		};
+		BB615DD71D21CD7B0002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615DCC1D21CD7B0002ECED /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 537D95C117ECC1FE0097C263;
+			remoteInfo = "SDWebImage+WebP";
+		};
+		BB615DD91D21CD7B0002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615DCC1D21CD7B0002ECED /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
+			remoteInfo = "SDWebImage+MKAnnotation";
+		};
+		BB615DDB1D21CD7B0002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615DCC1D21CD7B0002ECED /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
+			remoteInfo = WebImage;
+		};
+		BB615DDD1D21CD7B0002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615DCC1D21CD7B0002ECED /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00733A4C1BC487C000A5A117;
+			remoteInfo = "WebImage tvOS";
+		};
+		BB615DE11D21CD830002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615DCC1D21CD7B0002ECED /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A2CADFE1AB4BB5300B6BC39;
+			remoteInfo = WebImage;
+		};
+		BB615E0D1D22AA580002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615E031D22AA570002ECED /* HockeySDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E5954F215B6F24A00A03429;
+			remoteInfo = HockeySDK;
+		};
+		BB615E0F1D22AA580002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615E031D22AA570002ECED /* HockeySDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E5A459016F0DFC200B55C04;
+			remoteInfo = HockeySDKTests;
+		};
+		BB615E111D22AA580002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615E031D22AA570002ECED /* HockeySDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E59550A15B6F45800A03429;
+			remoteInfo = HockeySDKResources;
+		};
+		BB615E131D22AA580002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615E031D22AA570002ECED /* HockeySDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1EB6173F1B0A30480035A986;
+			remoteInfo = "HockeySDK Framework";
+		};
+		BB615E151D22AA580002ECED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB615E031D22AA570002ECED /* HockeySDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1EB617491B0A30480035A986;
+			remoteInfo = "HockeySDK FrameworkTests";
+		};
+		BB76A3A81D62267100EDBC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB76A3A41D62267100EDBC9C /* FBAnnotationClustering.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1E352D91C762B4100D2DE8A;
+			remoteInfo = FBAnnotationClustering;
+		};
+		BBAA974D1D4BE85200B39D0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAA97491D4BE85200B39D0F /* MessagePack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB680B751D4B2FB900B23C7E;
+			remoteInfo = MessagePack;
+		};
+		BBAA97511D4BE85B00B39D0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAA97491D4BE85200B39D0F /* MessagePack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BB680B741D4B2FB900B23C7E;
+			remoteInfo = MessagePack;
+		};
+		BBE7A8121D64EA23006AD3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB76A3A41D62267100EDBC9C /* FBAnnotationClustering.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E352D81C762B4100D2DE8A;
+			remoteInfo = FBAnnotationClustering;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB48887C1D13411A00A7AAF6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BB4888791D13411A00A7AAF6 /* Midas.framework in Embed Frameworks */,
+				BBAA97501D4BE85B00B39D0F /* MessagePack.framework in Embed Frameworks */,
+				BBE7A8111D64EA23006AD3B3 /* FBAnnotationClustering.framework in Embed Frameworks */,
+				BB615DE01D21CD830002ECED /* WebImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB4888381D133F6600A7AAF6 /* MidasDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidasDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB48883C1D133F6600A7AAF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB48883E1D133F6600A7AAF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB48883F1D133F6600A7AAF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB4888451D133F6600A7AAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB4888471D133F6600A7AAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB48884A1D133F6600A7AAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB48884C1D133F6600A7AAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB48886B1D133FA100A7AAF6 /* Midas.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Midas.xcodeproj; path = ../Midas/Midas.xcodeproj; sourceTree = "<group>"; };
+		BB615DBA1D21C42F0002ECED /* APOD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APOD.json; sourceTree = "<group>"; };
+		BB615DBF1D21C4760002ECED /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		BB615DC01D21C4760002ECED /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		BB615DC51D21CAB70002ECED /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		BB615DC61D21CAB70002ECED /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		BB615DC81D21CADE0002ECED /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		BB615DC91D21CADE0002ECED /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		BB615DCC1D21CD7B0002ECED /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = "../../External Frameworks/SDWebImage/SDWebImage.xcodeproj"; sourceTree = "<group>"; };
+		BB615E031D22AA570002ECED /* HockeySDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HockeySDK.xcodeproj; path = "../../External Frameworks/HockeySDK/Support/HockeySDK.xcodeproj"; sourceTree = "<group>"; };
+		BB76A3A41D62267100EDBC9C /* FBAnnotationClustering.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBAnnotationClustering.xcodeproj; path = "/Users/thomasguenzel/Documents/Uni/Bachelor-Thesis/Implementation/ba-thomas-guenzel-client/Midas/../External Frameworks/FBAnnotationClustering/FBAnnotationClustering.xcodeproj"; sourceTree = "<absolute>"; };
+		BBAA97491D4BE85200B39D0F /* MessagePack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MessagePack.xcodeproj; path = "/Users/thomasguenzel/Documents/Uni/Bachelor-Thesis/Implementation/ba-thomas-guenzel-client/Midas/../External Frameworks/MessagePack/MessagePack.xcodeproj"; sourceTree = "<absolute>"; };
+		BBAA97581D4FC9A200B39D0F /* midas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = midas.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB4888351D133F6600A7AAF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4888781D13411A00A7AAF6 /* Midas.framework in Frameworks */,
+				BBAA974F1D4BE85B00B39D0F /* MessagePack.framework in Frameworks */,
+				BBE7A8101D64EA23006AD3B3 /* FBAnnotationClustering.framework in Frameworks */,
+				BB615DDF1D21CD830002ECED /* WebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB48882F1D133F6600A7AAF6 = {
+			isa = PBXGroup;
+			children = (
+				BB76A3B51D62267600EDBC9C /* Imported Frameworks from Midas */,
+				BB4888711D133FA400A7AAF6 /* Framework */,
+				BB48883A1D133F6600A7AAF6 /* MidasDemo */,
+				BB4888391D133F6600A7AAF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB4888391D133F6600A7AAF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB4888381D133F6600A7AAF6 /* MidasDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB48883A1D133F6600A7AAF6 /* MidasDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BB48883E1D133F6600A7AAF6 /* AppDelegate.h */,
+				BB48883F1D133F6600A7AAF6 /* AppDelegate.m */,
+				BB615DBF1D21C4760002ECED /* HistoryTableViewController.h */,
+				BB615DC01D21C4760002ECED /* HistoryTableViewController.m */,
+				BB615DC51D21CAB70002ECED /* PictureViewController.h */,
+				BB615DC61D21CAB70002ECED /* PictureViewController.m */,
+				BB615DC81D21CADE0002ECED /* SettingsViewController.h */,
+				BB615DC91D21CADE0002ECED /* SettingsViewController.m */,
+				BBAA97581D4FC9A200B39D0F /* midas.plist */,
+				BB4888441D133F6600A7AAF6 /* Main.storyboard */,
+				BB4888471D133F6600A7AAF6 /* Assets.xcassets */,
+				BB615DBA1D21C42F0002ECED /* APOD.json */,
+				BB4888491D133F6600A7AAF6 /* LaunchScreen.storyboard */,
+				BB48884C1D133F6600A7AAF6 /* Info.plist */,
+				BB615E031D22AA570002ECED /* HockeySDK.xcodeproj */,
+				BB615DCC1D21CD7B0002ECED /* SDWebImage.xcodeproj */,
+				BB48883B1D133F6600A7AAF6 /* Supporting Files */,
+			);
+			path = MidasDemo;
+			sourceTree = "<group>";
+		};
+		BB48883B1D133F6600A7AAF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB48883C1D133F6600A7AAF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB48886C1D133FA100A7AAF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB4888701D133FA100A7AAF6 /* Midas.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB4888711D133FA400A7AAF6 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				BB48886B1D133FA100A7AAF6 /* Midas.xcodeproj */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		BB615DCD1D21CD7B0002ECED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB615DD61D21CD7B0002ECED /* libSDWebImage.a */,
+				BB615DD81D21CD7B0002ECED /* libSDWebImage+WebP.a */,
+				BB615DDA1D21CD7B0002ECED /* libSDWebImage+MKAnnotation.a */,
+				BB615DDC1D21CD7B0002ECED /* WebImage.framework */,
+				BB615DDE1D21CD7B0002ECED /* WebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB615E041D22AA570002ECED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB615E0E1D22AA580002ECED /* libHockeySDK.a */,
+				BB615E101D22AA580002ECED /* HockeySDKTests.xctest */,
+				BB615E121D22AA580002ECED /* HockeySDKResources.bundle */,
+				BB615E141D22AA580002ECED /* HockeySDK.framework */,
+				BB615E161D22AA580002ECED /* HockeySDK FrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB76A3A51D62267100EDBC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB76A3A91D62267100EDBC9C /* FBAnnotationClustering.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB76A3B51D62267600EDBC9C /* Imported Frameworks from Midas */ = {
+			isa = PBXGroup;
+			children = (
+				BB76A3A41D62267100EDBC9C /* FBAnnotationClustering.xcodeproj */,
+				BBAA97491D4BE85200B39D0F /* MessagePack.xcodeproj */,
+			);
+			name = "Imported Frameworks from Midas";
+			sourceTree = "<group>";
+		};
+		BBAA974A1D4BE85200B39D0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBAA974E1D4BE85200B39D0F /* MessagePack.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB4888371D133F6600A7AAF6 /* MidasDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB48884F1D133F6600A7AAF6 /* Build configuration list for PBXNativeTarget "MidasDemo" */;
+			buildPhases = (
+				BB4888341D133F6600A7AAF6 /* Sources */,
+				BB4888351D133F6600A7AAF6 /* Frameworks */,
+				BB4888361D133F6600A7AAF6 /* Resources */,
+				BB48887C1D13411A00A7AAF6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB48887B1D13411A00A7AAF6 /* PBXTargetDependency */,
+				BB615DE21D21CD830002ECED /* PBXTargetDependency */,
+				BBAA97521D4BE85B00B39D0F /* PBXTargetDependency */,
+				BBE7A8131D64EA23006AD3B3 /* PBXTargetDependency */,
+			);
+			name = MidasDemo;
+			productName = MidasDemo;
+			productReference = BB4888381D133F6600A7AAF6 /* MidasDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB4888301D133F6600A7AAF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Thomas Günzel";
+				TargetAttributes = {
+					BB4888371D133F6600A7AAF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GNC759Y8J3;
+					};
+				};
+			};
+			buildConfigurationList = BB4888331D133F6600A7AAF6 /* Build configuration list for PBXProject "MidasDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB48882F1D133F6600A7AAF6;
+			productRefGroup = BB4888391D133F6600A7AAF6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BB76A3A51D62267100EDBC9C /* Products */;
+					ProjectRef = BB76A3A41D62267100EDBC9C /* FBAnnotationClustering.xcodeproj */;
+				},
+				{
+					ProductGroup = BB615E041D22AA570002ECED /* Products */;
+					ProjectRef = BB615E031D22AA570002ECED /* HockeySDK.xcodeproj */;
+				},
+				{
+					ProductGroup = BBAA974A1D4BE85200B39D0F /* Products */;
+					ProjectRef = BBAA97491D4BE85200B39D0F /* MessagePack.xcodeproj */;
+				},
+				{
+					ProductGroup = BB48886C1D133FA100A7AAF6 /* Products */;
+					ProjectRef = BB48886B1D133FA100A7AAF6 /* Midas.xcodeproj */;
+				},
+				{
+					ProductGroup = BB615DCD1D21CD7B0002ECED /* Products */;
+					ProjectRef = BB615DCC1D21CD7B0002ECED /* SDWebImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BB4888371D133F6600A7AAF6 /* MidasDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BB4888701D133FA100A7AAF6 /* Midas.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Midas.framework;
+			remoteRef = BB48886F1D133FA100A7AAF6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB615DD61D21CD7B0002ECED /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = BB615DD51D21CD7B0002ECED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB615DD81D21CD7B0002ECED /* libSDWebImage+WebP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+WebP.a";
+			remoteRef = BB615DD71D21CD7B0002ECED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB615DDA1D21CD7B0002ECED /* libSDWebImage+MKAnnotation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+MKAnnotation.a";
+			remoteRef = BB615DD91D21CD7B0002ECED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB615DDC1D21CD7B0002ECED /* WebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WebImage.framework;
+			remoteRef = BB615DDB1D21CD7B0002ECED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB615DDE1D21CD7B0002ECED /* WebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WebImage.framework;
+			remoteRef = BB615DDD1D21CD7B0002ECED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB615E0E1D22AA580002ECED /* libHockeySDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHockeySDK.a;
+			remoteRef = BB615E0D1D22AA580002ECED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB615E101D22AA580002ECED /* HockeySDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HockeySDKTests.xctest;
+			remoteRef = BB615E0F1D22AA580002ECED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB615E121D22AA580002ECED /* HockeySDKResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HockeySDKResources.bundle;
+			remoteRef = BB615E111D22AA580002ECED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB615E141D22AA580002ECED /* HockeySDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HockeySDK.framework;
+			remoteRef = BB615E131D22AA580002ECED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB615E161D22AA580002ECED /* HockeySDK FrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "HockeySDK FrameworkTests.xctest";
+			remoteRef = BB615E151D22AA580002ECED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB76A3A91D62267100EDBC9C /* FBAnnotationClustering.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBAnnotationClustering.framework;
+			remoteRef = BB76A3A81D62267100EDBC9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBAA974E1D4BE85200B39D0F /* MessagePack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MessagePack.framework;
+			remoteRef = BBAA974D1D4BE85200B39D0F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB4888361D133F6600A7AAF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB48884B1D133F6600A7AAF6 /* LaunchScreen.storyboard in Resources */,
+				BBAA97591D4FC9A200B39D0F /* midas.plist in Resources */,
+				BB615DBB1D21C42F0002ECED /* APOD.json in Resources */,
+				BB4888481D133F6600A7AAF6 /* Assets.xcassets in Resources */,
+				BB4888461D133F6600A7AAF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB4888341D133F6600A7AAF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB615DC11D21C4760002ECED /* HistoryTableViewController.m in Sources */,
+				BB615DC71D21CAB70002ECED /* PictureViewController.m in Sources */,
+				BB615DCA1D21CADE0002ECED /* SettingsViewController.m in Sources */,
+				BB4888401D133F6600A7AAF6 /* AppDelegate.m in Sources */,
+				BB48883D1D133F6600A7AAF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB48887B1D13411A00A7AAF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Midas;
+			targetProxy = BB48887A1D13411A00A7AAF6 /* PBXContainerItemProxy */;
+		};
+		BB615DE21D21CD830002ECED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebImage;
+			targetProxy = BB615DE11D21CD830002ECED /* PBXContainerItemProxy */;
+		};
+		BBAA97521D4BE85B00B39D0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MessagePack;
+			targetProxy = BBAA97511D4BE85B00B39D0F /* PBXContainerItemProxy */;
+		};
+		BBE7A8131D64EA23006AD3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBAnnotationClustering;
+			targetProxy = BBE7A8121D64EA23006AD3B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB4888441D133F6600A7AAF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB4888451D133F6600A7AAF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB4888491D133F6600A7AAF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB48884A1D133F6600A7AAF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB48884D1D133F6600A7AAF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB48884E1D133F6600A7AAF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB4888501D133F6600A7AAF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GNC759Y8J3;
+				INFOPLIST_FILE = MidasDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.tum.in.www1.tg.midas.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB4888511D133F6600A7AAF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GNC759Y8J3;
+				INFOPLIST_FILE = MidasDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.tum.in.www1.tg.midas.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB4888331D133F6600A7AAF6 /* Build configuration list for PBXProject "MidasDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB48884D1D133F6600A7AAF6 /* Debug */,
+				BB48884E1D133F6600A7AAF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB48884F1D133F6600A7AAF6 /* Build configuration list for PBXNativeTarget "MidasDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4888501D133F6600A7AAF6 /* Debug */,
+				BB4888511D133F6600A7AAF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB4888301D133F6600A7AAF6 /* Project object */;
+}

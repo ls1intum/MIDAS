@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AAE9346A123D8783D325F0248EFB4C53C063C8F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "52D964A246821B09E37D4CDD9645EE2065EEE3A4" : 0,
+    "AAE9346A123D8783D325F0248EFB4C53C063C8F1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B1294875-35CE-41CD-BB0A-65E747DC3C09",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "52D964A246821B09E37D4CDD9645EE2065EEE3A4" : "ba-thomas-guenzel-client\/External%20Frameworks\/MessagePack\/msgpack-c\/",
+    "AAE9346A123D8783D325F0248EFB4C53C063C8F1" : "ba-thomas-guenzel-client\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Midas",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Midas.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/msgpack\/msgpack-c",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52D964A246821B09E37D4CDD9645EE2065EEE3A4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/repobruegge.in.tum.de\/scm\/jj\/ba-thomas-guenzel-client.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AAE9346A123D8783D325F0248EFB4C53C063C8F1"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+version: '2'
+services:
+  midas:
+    build: .
+    ports:
+     - "443:21237"
+    depends_on:
+     - "redis"
+    links:
+     - "redis"
+  redis:
+    image: redis
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - "midas"
+    volumes_from:
+        - midas

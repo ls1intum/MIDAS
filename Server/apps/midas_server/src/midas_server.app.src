@@ -1,0 +1,25 @@
+{application, midas_server,
+	[{description, "An OTP application"},
+		{vsn, "0.1.0"},
+		{registered, []},
+		{mod, { midas_server_app, []}},
+		{applications,
+			[
+				kernel,
+				stdlib,
+				jiffy,
+				eredis,
+				lager,
+				msgpack,
+				iso8601,
+				inets,
+				ssl
+			]},
+		%{env,[{root_dir, "/Users/thomasguenzel/Documents/Uni/Bachelor-Thesis/Implementation/ba-thomas-guenzel-server/midas_server/data/"}]},
+		{env,[{root_dir, "/midas/"}]},
+		{modules, [midas_server_app,midas_server_sup,midas_server_server]},
+
+		{maintainers, []},
+		{licenses, []},
+		{links, []}
+	]}.

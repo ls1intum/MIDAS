@@ -1,0 +1,14 @@
+PODS:
+  - FBAnnotationClustering (0.1.2)
+
+DEPENDENCIES:
+  - FBAnnotationClustering (from `../FBAnnotationClustering.podspec`)
+
+EXTERNAL SOURCES:
+  FBAnnotationClustering:
+    :path: ../FBAnnotationClustering.podspec
+
+SPEC CHECKSUMS:
+  FBAnnotationClustering: 8be556cf48b27262acab01ad8419bc01703615e3
+
+COCOAPODS: 0.37.1
