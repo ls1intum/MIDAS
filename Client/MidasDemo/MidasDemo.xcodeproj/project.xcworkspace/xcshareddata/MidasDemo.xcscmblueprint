@@ -4,17 +4,17 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "AAE9346A123D8783D325F0248EFB4C53C063C8F1" : 0,
+    "AAE9346A123D8783D325F0248EFB4C53C063C8F1" : 9223372036854775807,
     "6674F474464B4BE1B2F4AE5B5AE9A6977B415947" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B1294875-35CE-41CD-BB0A-65E747DC3C09",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C3C62B3C-64CD-495A-B119-291C70260426",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "AAE9346A123D8783D325F0248EFB4C53C063C8F1" : "Uni\/Bachelor-Thesis\/Implementation\/ba-thomas-guenzel-client\/",
     "6674F474464B4BE1B2F4AE5B5AE9A6977B415947" : "MIDAS\/"
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "Midas",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MidasDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Client\/Midas.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Client\/MidasDemo\/MidasDemo.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/ls1intum\/MIDAS.git",
