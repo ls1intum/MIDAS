@@ -270,8 +270,26 @@
 		[self loadViewIfNeeded];
 	}
 	
-	UIView *snapshotA = [_targetViewController.view snapshotViewAfterScreenUpdates:YES];
-	UIView *snapshotB = [_targetViewController.view snapshotViewAfterScreenUpdates:YES];
+	UIView *snapshotA;
+	UIView *snapshotB;
+	
+	if(TARGET_OS_SIMULATOR) {
+	
+		UIGraphicsBeginImageContextWithOptions(_targetViewController.view.bounds.size, NO, [UIScreen mainScreen].scale);
+	
+		[_targetViewController.view drawViewHierarchyInRect:_targetViewController.view.bounds afterScreenUpdates:YES];
+	
+		UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+		UIGraphicsEndImageContext();
+		
+		snapshotA = [[UIImageView alloc] initWithImage:image];
+		snapshotB = [[UIImageView alloc] initWithImage:image];
+		
+	} else {
+		snapshotA = [_targetViewController.view snapshotViewAfterScreenUpdates:YES];
+		snapshotB = [_targetViewController.view snapshotViewAfterScreenUpdates:YES];
+	}
+	
 	
 	MDScreenshotCache *cache = [MDScreenshotCache sharedCache];
 	NSString *identifier = _targetViewController.md_identifier;
