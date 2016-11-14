@@ -78,7 +78,7 @@
 	_containerView.transform = CGAffineTransformScale(CGAffineTransformMakeTranslation(0.0, -70), scale, scale);
 //	_containerView.hidden = YES;
 	
-	UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleExtraLight];
+	UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
 	_blurEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
 	_contentView = _blurEffectView.contentView;
 	_blurEffectView.frame = self.view.frame;
