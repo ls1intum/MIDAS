@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>uploadHost</key>
+	<string>example.com</string>
+	<key>uploadPort</key>
+	<integer>1234</integer>
+	<key>downloadBaseURL</key>
+	<string>http://example.com/</string>
+</dict>
+</plist>
